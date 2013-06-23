@@ -4457,10 +4457,10 @@
     <!-- Sprint Tools -->
     <string name="sprint_tools_title">Sprint Tools</string>
 
-    <!-- RootBox -->
+    <!-- NovaGen -->
     <string name="header_category_rootbox">ROOTBOX</string>
     <string name="update_settings_title">Update Center</string>
-    <string name="rootbox_settings_title">RootBox Settings</string>
+    <string name="rootbox_settings_title">NovaGen Settings</string>
 
     <!--- Sms security limit -->
     <string name="app_security_title">App security</string>
@@ -4472,16 +4472,16 @@
     <string name="rom_control_title">ROM Control</string>
     <string name="themes_title">Themes</string>
 
-    <string name="rb_version">RootBox version</string>
+    <string name="rb_version">NovaGen version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">RootBox Statistics</string>
-    <string name="anonymous_statistics_summary">Help make RootBox better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">NovaGen Statistics</string>
+    <string name="anonymous_statistics_summary">Help make NovaGen better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into RootBox Statistics will allow non-personal data to be submitted to the
-        developers of RootBox to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into NovaGen Statistics will allow non-personal data to be submitted to the
+        developers of NovaGen to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted once weekly, during boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -4490,7 +4490,7 @@
     <string name="anonymous_learn_more">Learn more</string>
 
     <!-- Anonymous Statistics - Notification -->
-    <string name="anonymous_notification_desc">Enable or Disable RootBox Statistics</string>
+    <string name="anonymous_notification_desc">Enable or Disable NovaGen Statistics</string>
 
     <!-- Anonymous Statistics - Preview -->
     <string name="preview_id_title">Unique ID</string>
@@ -4516,7 +4516,7 @@
 
     <!-- ROOTBOX SETTINGS BEGINNING -->
 
-    <!-- RootBox Settings -->
+    <!-- NovaGen Settings -->
     <string name="clock_header">Clock</string>
     <string name="sound_header">Sound</string>
     <string name="lockscreen_header">Lockscreen</string>
@@ -4628,15 +4628,15 @@
     <string name="link_volume_ringtones">Link volumes</string>
     <string name="link_volume_mutes">Link mute states</string>
 
-    <!-- About RootBox -->
-    <string name="rootbox">Vanilla RootBox</string>
-    <string name="about_rb_settings_title">About RootBox</string>
-    <string name="about_rootbox">About RootBox</string>
+    <!-- About NovaGen -->
+    <string name="rootbox">NovaGen</string>
+    <string name="about_rb_settings_title">About NovaGen</string>
+    <string name="about_rootbox">About NovaGen</string>
     <string name="about_rootbox_summary">@null</string>
-    <string name="app_name">RootBox</string>
-    <string name="rootbox_site_title">RootBox Website</string>
-    <string name="rootbox_site_summary">Visit RootBox website for latest news about the ROM.</string>
-    <string name="title_about">About RootBox</string>
+    <string name="app_name">NovaGen</string>
+    <string name="rootbox_site_title">NovaGen Website</string>
+    <string name="rootbox_site_summary">Visit NovaGen website for latest news about the ROM.</string>
+    <string name="title_about">About NovaGen</string>
     <string name="devs">Lead Developer</string>
     <string name="support_team_title">Support Team</string>
     <string name="graphics_team_title">Graphics Team</string>
@@ -4656,14 +4656,14 @@
     <string name="github_joao">https://github.com/manelscout4life</string>
     <string name="github_slick">https://github.com/slickrick</string>
     <string name="google_rootbox">https://plus.google.com/u/0/communities/115833651542488654391</string>
-    <string name="facebook_rootbox">https://www.facebook.com/pages/RootBox-AOKP-ROM/333083833406934</string>
+    <string name="facebook_rootbox">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>
 
     <!-- LMT Settings -->
     <string name="lmt_settings_title">LMT Settings</string>
 
     <!-- Paranoid Settings -->
     <string name="dpi_settings">DPI &amp; LAYOUT SETTINGS</string>
-    <string name="hybrid_settings">Hybrid Settings</string>
+    <string name="hybrid_settings">Paranoid Settings</string>
 
     <!-- AOKP specific sound settings
     <string name="camera_sounds">Camera sounds</string> ** TODO ** -->
@@ -4991,7 +4991,7 @@
     <string name="keyboard_rotation_dialog">Note: This feature forces auto-rotate to turn on temporarily while the keyboard is out.  It has no effect when auto-rotate is already enabled.</string>
 
     <!-- Dark RB Settings -->
-    <string name="drb_settings_title">Dark RootBox</string>
+    <string name="drb_settings_title">Dark NovaGen</string>
 
     <!-- Shortcut picker -->
     <string name="picker_activities">Activities</string>

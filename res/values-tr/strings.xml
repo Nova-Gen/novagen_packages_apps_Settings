@@ -1850,10 +1850,10 @@
      <!-- Sprint Tools -->
     <string name="sprint_tools_title">Sprint Araçları</string>
 
-    <!-- RootBox -->
+    <!-- NovaGen -->
     <string name="header_category_rootbox">ROOTBOX</string>
     <string name="update_settings_title">Güncelleme Merkezi</string>
-    <string name="rootbox_settings_title">RootBox Ayarları</string>
+    <string name="rootbox_settings_title">NovaGen Ayarları</string>
 
     <!--- Sms security limit -->
     <string name="app_security_title">Uygulama Güvenliği</string>
@@ -1866,7 +1866,7 @@
     <string name="themes_title">Temalar</string>
     <string name="performance_title">Performans Kontrolü</string>
 
-    <string name="mod_version">RootBox sürümü</string>
+    <string name="mod_version">NovaGen sürümü</string>
     <string name="mod_version_default">Bilinmeyen</string>
 
     <!-- Anonymous Statistics #CM -->
@@ -1910,7 +1910,7 @@
 
     <!-- ROOTBOX SETTINGS BEGINNING -->
 
-    <!-- RootBox Settings -->
+    <!-- NovaGen Settings -->
     <string name="clock_header">Saat</string>
     <string name="sound_header">Ses</string>
     <string name="lockscreen_header">Kilit Ekranı</string>
@@ -2016,15 +2016,15 @@
     <string name="link_volume_ringtones">Zil sesi bağlantıları</string>
     <string name="link_volume_mutes">Sessizlik bağlantıları</string>
 
-    <!-- About RootBox -->
-    <string name="rootbox">Vanilla RootBox</string>
-    <string name="about_rb_settings_title">RootBox hakkında</string>
-    <string name="about_rootbox">RootBox hakkında</string>
+    <!-- About NovaGen -->
+    <string name="rootbox">NovaGen</string>
+    <string name="about_rb_settings_title">NovaGen hakkında</string>
+    <string name="about_rootbox">NovaGen hakkında</string>
     <string name="about_rootbox_summary">Türkçe çeviri: dexxter</string>
-    <string name="app_name">RootBox</string>
-    <string name="rootbox_blog_title">RootBox Blog</string>
-    <string name="rootbox_blog_summary">Visit RootBox Blog for latest news about the ROM.</string>
-    <string name="title_about">RootBox Ayarları</string>
+    <string name="app_name">NovaGen</string>
+    <string name="rootbox_blog_title">NovaGen Blog</string>
+    <string name="rootbox_blog_summary">Visit NovaGen Blog for latest news about the ROM.</string>
+    <string name="title_about">NovaGen Ayarları</string>
     <string name="devs">Geliştiriciler</string>
     <string name="support_team_title">Destek Takımı</string>
     <string name="graphics_team_title">Grafik Takımı</string>
@@ -2044,7 +2044,7 @@
     <string name="github_joao">https://github.com/manelscout4life</string>
     <string name="github_slick">https://github.com/slickrick</string>
     <string name="google_rootbox">https://plus.google.com/u/0/communities/115833651542488654391</string>
-    <string name="facebook_rootbox">https://www.facebook.com/pages/RootBox-AOKP-ROM/333083833406934</string>
+    <string name="facebook_rootbox">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>
 
     <!-- LMT Settings -->
     <string name="lmt_settings_title">LMT Ayarları</string>
@@ -2361,7 +2361,7 @@
     <string name="keyboard_rotation_dialog">Not: Bu özellikle klavye dışında da geçici olara açıktır. Otomatik çevirme zaten etkinleştirilmişse bir etkisi yoktur.</string>
 
     <!-- Dark RB Settings -->
-    <string name="drb_settings_title">RootBox Koyu</string>
+    <string name="drb_settings_title">NovaGen Koyu</string>
 
     
     <!-- Shortcut picker -->

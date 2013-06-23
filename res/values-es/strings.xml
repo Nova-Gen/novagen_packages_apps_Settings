@@ -1831,7 +1831,7 @@
     <string name="cell_broadcast_settings" msgid="8415582011920085222">"Difusiones móviles"</string>
     <string name="cell_broadcast_settings_summary" msgid="3301339398950905913">"Selecciona los tipos de alertas de emergencia que quieres ver."</string>
     
-    <!-- RootBox Settings -->
+    <!-- NovaGen Settings -->
     <string name="general_ui_header">Interface General</string>
     <string name="keyboard_header">Teclado</string>
     <string name="lockscreen_header">Pantalla de bloqueo</string>
@@ -1839,9 +1839,9 @@
     <string name="clock_header">Clock</string>
     <string name="sound_header">Sonido</string>
     <string name="hardware_keys_header">Teclas físicas</string>
-    <!-- RootBox -->
+    <!-- NovaGen -->
     <string name="header_category_rootbox">ROOTBOX</string>
-    <string name="rootbox_settings_title">Configuraciones RootBox</string>
+    <string name="rootbox_settings_title">Configuraciones NovaGen</string>
     <string name="update_settings_title">Centro de Actualizaciones</string>
     <string name="quick_links_title">Enlaces rápidos</string>
     <string name="rom_control_title">ROM Control</string>
@@ -2197,14 +2197,14 @@
     <string name="power_notifications_vibrate_title">Vibrar</string>
     <string name="power_notifications_ringtone_title">Sonido de notificación</string>
     <string name="power_notifications_ringtone_silent">Silencio</string>	
-    <string name="rootbox">Vanilla RootBox</string>
-    <string name="about_rb_settings_title">Sobre RootBox</string>
-    <string name="about_rootbox">Sobre RootBox</string>
+    <string name="rootbox">NovaGen</string>
+    <string name="about_rb_settings_title">Sobre NovaGen</string>
+    <string name="about_rootbox">Sobre NovaGen</string>
     <string name="about_rootbox_summary">@null</string>
-    <string name="app_name">RootBox</string>
-    <string name="rootbox_site_title">sitio web RootBox</string>
-    <string name="rootbox_site_summary">Visite el sitio web RootBox para las últimas noticias acerca de la ROM.</string>
-    <string name="title_about">Sobre RootBox</string>
+    <string name="app_name">NovaGen</string>
+    <string name="rootbox_site_title">sitio web NovaGen</string>
+    <string name="rootbox_site_summary">Visite el sitio web NovaGen para las últimas noticias acerca de la ROM.</string>
+    <string name="title_about">Sobre NovaGen</string>
     <string name="devs">Desarrollador principal</string>
     <string name="support_team_title">Equipo de soporte</string>
     <string name="graphics_team_title">Equipo de gráficos</string>
@@ -2224,7 +2224,7 @@
     <string name="github_joao">https://github.com/manelscout4life</string>
     <string name="github_slick">https://github.com/slickrick</string>
     <string name="google_rootbox">https://plus.google.com/u/0/communities/115833651542488654391</string>
-    <string name="facebook_rootbox">https://www.facebook.com/pages/RootBox-AOKP-ROM/333083833406934</string>	
+    <string name="facebook_rootbox">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>	
     <string name="light_sensor_current_value">Valor actual del sensor de luz: <xliff:g id="light_level">%d</xliff:g> lux</string>
     <string name="auto_brightness_dialog_title">Niveles de brillo automáticos</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>

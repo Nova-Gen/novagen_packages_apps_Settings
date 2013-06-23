@@ -1564,7 +1564,7 @@
                 android:resource="@id/display_settings" />
         </activity>
 
-        <!-- RootBox -->
+        <!-- NovaGen -->
         <activity android:name="Rootbox" />
         <activity android:name=".rb.About" />
         <activity android:name=".paranoid.Pie" />

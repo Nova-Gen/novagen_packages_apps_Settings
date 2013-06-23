@@ -109,7 +109,7 @@
         android:icon="@drawable/ic_rb_dark"
         android:title="@string/drb_settings_title" />
 
-    <!-- RootBox Settings -->
+    <!-- NovaGen Settings -->
     <header
         android:id="@+id/rb_settings"
         android:fragment="com.android.settings.Rootbox"
@@ -129,7 +129,7 @@
     <!-- DPI Settings -->
     <header android:title="@string/dpi_settings" />
 
-    <!-- Hybrid Settings -->
+    <!-- Paranoid Settings -->
     <header
         android:id="@+id/hybrid_settings"
         android:icon="@drawable/ic_hybrid_settings"
@@ -289,7 +289,7 @@
         android:icon="@drawable/ic_settings_development"
         android:title="@string/development_settings_title" />
 
-    <!-- About RootBox -->
+    <!-- About NovaGen -->
     <header
         android:id="@+id/about_rom"
         android:fragment="com.android.settings.rb.About"

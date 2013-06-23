@@ -41,7 +41,7 @@
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
         
-        <!-- Anonymous statistics-(RootBox Stats) -->
+        <!-- Anonymous statistics-(NovaGen Stats) -->
         <PreferenceScreen
             android:key="rbstats"
             android:title="@string/anonymous_statistics_title"
