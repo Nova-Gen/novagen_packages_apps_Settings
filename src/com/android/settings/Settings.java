@@ -881,7 +881,7 @@ public class Settings extends PreferenceActivity
     public static class DreamSettingsActivity extends Settings { /* empty */ }
     public static class AnonymousStatsActivity extends Settings { /* empty */ }
     public static class AboutActivity extends Settings { /* empty */ }
-    public static class RootboxActivity extends Settings { /* empty */ }
+    public static class NovagenActivity extends Settings { /* empty */ }
     public static class PieActivity extends Settings { /* empty */ }
     public static class HaloActivity extends Settings { /* empty */ }
     public static class ApnSettingsActivity extends Settings { /* empty */ }

@@ -62,9 +62,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import net.margaritov.preference.colorpicker.ColorPickerView;
 
-public class Rootbox extends SettingsPreferenceFragment implements
+public class Novagen extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "Rootbox";
+    private static final String TAG = "Novagen";
 
     private static final int REQUEST_CODE_BG_WALLPAPER = 1024;
 
@@ -144,7 +144,7 @@ public class Rootbox extends SettingsPreferenceFragment implements
         mPrefSet = getPreferenceScreen();
         mCr = getContentResolver();
 
-        addPreferencesFromResource(R.xml.rootbox_settings);
+        addPreferencesFromResource(R.xml.novagen_settings);
         PreferenceScreen prefs = getPreferenceScreen();
 
         mStatusPac = (CheckBoxPreference) findPreference(KEY_PAC_STATUS);

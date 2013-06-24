@@ -4458,9 +4458,9 @@
     <string name="sprint_tools_title">Sprint Tools</string>
 
     <!-- NovaGen -->
-    <string name="header_category_rootbox">ROOTBOX</string>
+    <string name="header_category_novagen">NOVAGEN</string>
     <string name="update_settings_title">Update Center</string>
-    <string name="rootbox_settings_title">NovaGen Settings</string>
+    <string name="novagen_settings_title">NovaGen Settings</string>
 
     <!--- Sms security limit -->
     <string name="app_security_title">App security</string>
@@ -4514,7 +4514,7 @@
     <string name="quiet_hours_active_from">Active from</string>
     <string name="quiet_hours_active_to">to</string>
 
-    <!-- ROOTBOX SETTINGS BEGINNING -->
+    <!-- NOVAGEN SETTINGS BEGINNING -->
 
     <!-- NovaGen Settings -->
     <string name="clock_header">Clock</string>
@@ -4629,24 +4629,24 @@
     <string name="link_volume_mutes">Link mute states</string>
 
     <!-- About NovaGen -->
-    <string name="rootbox">NovaGen</string>
+    <string name="novagen">NovaGen</string>
     <string name="about_rb_settings_title">About NovaGen</string>
-    <string name="about_rootbox">About NovaGen</string>
-    <string name="about_rootbox_summary">@null</string>
+    <string name="about_novagen">About NovaGen</string>
+    <string name="about_novagen_summary">@null</string>
     <string name="app_name">NovaGen</string>
-    <string name="rootbox_site_title">NovaGen Website</string>
-    <string name="rootbox_site_summary">Visit NovaGen website for latest news about the ROM.</string>
+    <string name="novagen_site_title">NovaGen Website</string>
+    <string name="novagen_site_summary">Visit NovaGen website for latest news about the ROM.</string>
     <string name="title_about">About NovaGen</string>
     <string name="devs">Lead Developer</string>
     <string name="support_team_title">Support Team</string>
     <string name="graphics_team_title">Graphics Team</string>
     <string name="maintainers_team_title">Device Maintainers</string>
     <string name="contributors_title">Contributors</string>
-    <string name="donate_rootbox">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=62LG5GU2RSW9Y</string>
+    <string name="donate_novagen">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=62LG5GU2RSW9Y</string>
     <string name="donate_pier">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=UR24T97QA36CJ</string>
     <string name="donate_aokp">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG</string>
     <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
-    <string name="github_rootbox">https://github.com/Root-Box</string>
+    <string name="github_novagen">https://github.com/Root-Box</string>
     <string name="github_pier">https://github.com/PierPP</string>
     <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
     <string name="github_aokp">https://github.com/AOKP</string>
@@ -4655,8 +4655,8 @@
     <string name="github_ollig">https://github.com/olivergeith</string>
     <string name="github_joao">https://github.com/manelscout4life</string>
     <string name="github_slick">https://github.com/slickrick</string>
-    <string name="google_rootbox">https://plus.google.com/u/0/communities/115833651542488654391</string>
-    <string name="facebook_rootbox">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>
+    <string name="google_novagen">https://plus.google.com/u/0/communities/115833651542488654391</string>
+    <string name="facebook_novagen">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>
 
     <!-- LMT Settings -->
     <string name="lmt_settings_title">LMT Settings</string>
@@ -5177,7 +5177,7 @@
     <string name="lockscreen_background_custom_image">Custom image</string>
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
-    <!-- ROOTBOX SETTINGS END -->
+    <!-- NOVAGEN SETTINGS END -->
 
     <!-- Automatic brightness customization -->
     <string name="light_sensor_current_value">Current light sensor value: <xliff:g id="light_level">%d</xliff:g> lux</string>

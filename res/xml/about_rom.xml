@@ -9,20 +9,20 @@
 
 	<PreferenceCategory
 		android:key="links"
-		android:title="@string/rootbox">
+		android:title="@string/novagen">
 
 		<Preference
-			android:key="rootbox_site"
-			android:title="@string/rootbox_site_title"
-			android:summary="@string/rootbox_site_summary" />
+			android:key="novagen_site"
+			android:title="@string/novagen_site_title"
+			android:summary="@string/novagen_site_summary" />
 
 		<com.android.settings.widgets.DeveloperPreference
                         android:title="NovaGen"
                         rb:nameDev="NovaGen"
-                        rb:twitterHandle="rootbox_rom"
-                        rb:googleLink="@string/google_rootbox"
-                        rb:facebookLink="@string/facebook_rootbox"
-                        rb:githubLink="@string/github_rootbox" />
+                        rb:twitterHandle="novagen_rom"
+                        rb:googleLink="@string/google_novagen"
+                        rb:facebookLink="@string/facebook_novagen"
+                        rb:githubLink="@string/github_novagen" />
 
 	</PreferenceCategory>
 
@@ -34,8 +34,8 @@
             android:title="Bajee"
             rb:nameDev="Bajee"
             rb:twitterHandle="Bajee11"
-            rb:donateLink="@string/donate_rootbox"
-            rb:githubLink="@string/github_rootbox" />
+            rb:donateLink="@string/donate_novagen"
+            rb:githubLink="@string/github_novagen" />
 
 	</PreferenceCategory>
 

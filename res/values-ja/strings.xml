@@ -1872,7 +1872,7 @@
 
     <!-- NovaGen -->
     <string name="update_settings_title">更新センター</string>
-    <string name="rootbox_settings_title">NovaGen設定</string>
+    <string name="novagen_settings_title">NovaGen設定</string>
 
     <string name="quick_links_title">クイックリンク</string>
     <string name="rom_control_title">ROMコントロール</string>
@@ -1920,7 +1920,7 @@
     <string name="quiet_hours_active_from">有効時間</string>
     <string name="quiet_hours_active_to">から</string>
 
-    <!-- ROOTBOX SETTINGS BEGINNING -->
+    <!-- NOVAGEN SETTINGS BEGINNING -->
 
     <!-- NovaGen Settings -->
     <string name="clock_header">時計</string>
@@ -2026,9 +2026,9 @@
 
     <!-- About NovaGen -->
     <string name="about_rb_settings_title">NovaGenについて</string>
-    <string name="about_rootbox">NovaGenについて</string>
-    <string name="rootbox_site_title">NovaGenウェブサイト</string>
-    <string name="rootbox_site_summary">このROMについての最新の情報を得るためにNovaGenウェブ際にアクセスします。</string>
+    <string name="about_novagen">NovaGenについて</string>
+    <string name="novagen_site_title">NovaGenウェブサイト</string>
+    <string name="novagen_site_summary">このROMについての最新の情報を得るためにNovaGenウェブ際にアクセスします。</string>
     <string name="title_about">NovaGenについて</string>
     <string name="devs">主導開発者</string>
     <string name="support_team_title">サポートチーム</string>
@@ -2416,7 +2416,7 @@
     <string name="lockscreen_background_custom_image">カスタム画像</string>
     <string name="lockscreen_background_default_wallpaper">標準壁紙</string>
 
-    <!-- ROOTBOX SETTINGS END -->
+    <!-- NOVAGEN SETTINGS END -->
 
     <!--- Sms security limit -->
     <string name="app_security_title">アプリのセキュリティ</string>

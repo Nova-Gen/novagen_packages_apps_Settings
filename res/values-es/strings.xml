@@ -1840,8 +1840,8 @@
     <string name="sound_header">Sonido</string>
     <string name="hardware_keys_header">Teclas físicas</string>
     <!-- NovaGen -->
-    <string name="header_category_rootbox">ROOTBOX</string>
-    <string name="rootbox_settings_title">Configuraciones NovaGen</string>
+    <string name="header_category_novagen">NOVAGEN</string>
+    <string name="novagen_settings_title">Configuraciones NovaGen</string>
     <string name="update_settings_title">Centro de Actualizaciones</string>
     <string name="quick_links_title">Enlaces rápidos</string>
     <string name="rom_control_title">ROM Control</string>
@@ -2197,24 +2197,24 @@
     <string name="power_notifications_vibrate_title">Vibrar</string>
     <string name="power_notifications_ringtone_title">Sonido de notificación</string>
     <string name="power_notifications_ringtone_silent">Silencio</string>	
-    <string name="rootbox">NovaGen</string>
+    <string name="novagen">NovaGen</string>
     <string name="about_rb_settings_title">Sobre NovaGen</string>
-    <string name="about_rootbox">Sobre NovaGen</string>
-    <string name="about_rootbox_summary">@null</string>
+    <string name="about_novagen">Sobre NovaGen</string>
+    <string name="about_novagen_summary">@null</string>
     <string name="app_name">NovaGen</string>
-    <string name="rootbox_site_title">sitio web NovaGen</string>
-    <string name="rootbox_site_summary">Visite el sitio web NovaGen para las últimas noticias acerca de la ROM.</string>
+    <string name="novagen_site_title">sitio web NovaGen</string>
+    <string name="novagen_site_summary">Visite el sitio web NovaGen para las últimas noticias acerca de la ROM.</string>
     <string name="title_about">Sobre NovaGen</string>
     <string name="devs">Desarrollador principal</string>
     <string name="support_team_title">Equipo de soporte</string>
     <string name="graphics_team_title">Equipo de gráficos</string>
     <string name="maintainers_team_title">Mantenedores de dispositivos</string>
     <string name="contributors_title">Colaboradores</string>
-    <string name="donate_rootbox">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=62LG5GU2RSW9Y</string>
+    <string name="donate_novagen">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=62LG5GU2RSW9Y</string>
     <string name="donate_pier">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=UR24T97QA36CJ</string>
     <string name="donate_aokp">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG</string>
     <string name="donate_cyanogenmod">http://forum.cyanogenmod.com/donate</string>
-    <string name="github_rootbox">https://github.com/Root-Box</string>
+    <string name="github_novagen">https://github.com/Root-Box</string>
     <string name="github_pier">https://github.com/PierPP</string>
     <string name="github_cyanogenmod">https://github.com/CyanogenMod</string>
     <string name="github_aokp">https://github.com/AOKP</string>
@@ -2223,8 +2223,8 @@
     <string name="github_ollig">https://github.com/olivergeith</string>
     <string name="github_joao">https://github.com/manelscout4life</string>
     <string name="github_slick">https://github.com/slickrick</string>
-    <string name="google_rootbox">https://plus.google.com/u/0/communities/115833651542488654391</string>
-    <string name="facebook_rootbox">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>	
+    <string name="google_novagen">https://plus.google.com/u/0/communities/115833651542488654391</string>
+    <string name="facebook_novagen">https://www.facebook.com/pages/NovaGen-AOKP-ROM/333083833406934</string>	
     <string name="light_sensor_current_value">Valor actual del sensor de luz: <xliff:g id="light_level">%d</xliff:g> lux</string>
     <string name="auto_brightness_dialog_title">Niveles de brillo automáticos</string>
     <string name="auto_brightness_level_format"><xliff:g id="level">%1$d</xliff:g> lux</string>

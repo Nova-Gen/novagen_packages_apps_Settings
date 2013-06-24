@@ -100,8 +100,8 @@
                 android:targetClass="org.teameos.settings.device.DeviceSettings" />
     </header>
 
-    <!-- ROOTBOX SECTION -->
-    <header android:title="@string/header_category_rootbox" />
+    <!-- NOVAGEN SECTION -->
+    <header android:title="@string/header_category_novagen" />
 
     <!-- TRDS -->
     <header
@@ -112,9 +112,9 @@
     <!-- NovaGen Settings -->
     <header
         android:id="@+id/rb_settings"
-        android:fragment="com.android.settings.Rootbox"
+        android:fragment="com.android.settings.Novagen"
         android:icon="@drawable/ic_rb_settings"
-        android:title="@string/rootbox_settings_title" />
+        android:title="@string/novagen_settings_title" />
 
     <!-- Update Me -->
     <header 

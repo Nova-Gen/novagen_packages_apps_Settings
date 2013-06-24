@@ -67,13 +67,13 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        String device = SystemProperties.get("ro.rootbox.device");
+        String device = SystemProperties.get("ro.novagen.device");
         return device == null ? SystemProperties.get("ro.product.device") : device;
     }
 
     public static String getModVersion() {
-        String version = SystemProperties.get("ro.rootbox.version");
-        String branch = SystemProperties.get("ro.rootbox.branch");
+        String version = SystemProperties.get("ro.novagen.version");
+        String branch = SystemProperties.get("ro.novagen.branch");
         if (version == null || branch == null || !version.startsWith("NovaGen") || version.contains("Unofficial")) {
             return "KANG";
         } else {

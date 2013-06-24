@@ -88,7 +88,7 @@ public class ReportingService extends Service {
             GoogleAnalytics ga = GoogleAnalytics.getInstance(ReportingService.this);
             //ga.setDebug(true);
             Tracker tracker = ga.getTracker(getString(R.string.ga_trackingId));
-            tracker.setAppName("ROOTBOX");
+            tracker.setAppName("NOVAGEN");
             tracker.setAppVersion(deviceVersion);
             tracker.set(ModelFields.CLIENT_ID, deviceId);
             tracker.setCustomDimension(2, deviceName);

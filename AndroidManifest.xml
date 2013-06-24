@@ -1565,7 +1565,7 @@
         </activity>
 
         <!-- NovaGen -->
-        <activity android:name="Rootbox" />
+        <activity android:name="Novagen" />
         <activity android:name=".rb.About" />
         <activity android:name=".paranoid.Pie" />
         <activity android:name=".paranoid.Halo" />
@@ -1619,8 +1619,8 @@
 
         <activity android:name="net.margaritov.preference.colorpicker" />
 
-        <activity android:name="Settings$RootboxActivity"
-                android:label="@string/rootbox_settings_title"
+        <activity android:name="Settings$NovagenActivity"
+                android:label="@string/novagen_settings_title"
                 android:taskAffinity=""
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -1628,7 +1628,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.Rootbox" />
+                android:value="com.android.settings.Novagen" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/rb_settings" />
         </activity>

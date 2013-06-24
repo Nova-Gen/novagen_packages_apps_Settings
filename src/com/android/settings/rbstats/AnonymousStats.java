@@ -89,7 +89,7 @@ public class AnonymousStats extends SettingsPreferenceFragment implements
             }
         } else if (preference == mViewStats) {
             // Display the stats page
-            Uri uri = Uri.parse("http://stats.rootbox.ca");
+            Uri uri = Uri.parse("http://stats.novagen.ca");
             startActivity(new Intent(Intent.ACTION_VIEW, uri));
         } else {
             // If we didn't handle it, let preferences handle it.
@@ -119,7 +119,7 @@ public class AnonymousStats extends SettingsPreferenceFragment implements
         } else if (which == DialogInterface.BUTTON_NEGATIVE) {
             mEnableReporting.setChecked(false);
         } else {
-            Uri uri = Uri.parse("http://stats.rootbox.ca/info/");
+            Uri uri = Uri.parse("http://stats.novagen.ca/info/");
             startActivity(new Intent(Intent.ACTION_VIEW, uri));
         }
     }
