@@ -299,11 +299,11 @@
         android:title="@string/development_settings_title" />
 
     <!-- About NovaGen -->
-    <header
+    <!-- <header
         android:id="@+id/about_rom"
         android:fragment="com.android.settings.rb.About"
         android:icon="@drawable/ic_rb_about"
-        android:title="@string/about_rb_settings_title" />
+        android:title="@string/about_rb_settings_title" /> -->
 
     <!-- About Device -->
     <header
