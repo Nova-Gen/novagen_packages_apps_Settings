@@ -75,7 +75,7 @@ public class PieButtonStyleSettings extends SettingsPreferenceFragment implement
 
         PreferenceScreen prefs = getPreferenceScreen();
 
-        PackageManager pm = mContext.getPackageManager();
+        PackageManager pm = getActivity().getPackageManager();
 
         if (pm != null) {
             try {

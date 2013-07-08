@@ -296,7 +296,7 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
         mPieButtonQty.setValue(Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.SPIE_BUTTONS_QTY, 3) + "");
 
-        int pieLong = Settings.System.getInt(mContext.getContentResolver(),
+        int pieLong = Settings.System.getInt(getActivity().getContentResolver(),
                      Settings.System.SPIE_LONG_PRESS_ENABLE, 0);
 
         mEnablePieLong = (SwitchPreference) findPreference(PREF_PIE_ENABLE_LONG);
@@ -310,8 +310,8 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
         PreferenceGroup targetGroup = (PreferenceGroup) findPreference(PREF_PIE_BUTTONS);
         targetGroup.removeAll();
 
-        PackageManager pm = mContext.getPackageManager();
-        Resources res = mContext.getResources();
+        PackageManager pm = getActivity().getPackageManager();
+        Resources res = getActivity().getResources();
 
         for (int i = 0; i < pieQuantity; i++) {
             final int index = i;
@@ -424,7 +424,7 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
 
         Bitmap d = ((BitmapDrawable) image).getBitmap();
         Bitmap bitmapOrig = Bitmap.createScaledBitmap(d, px, px, false);
-        return new BitmapDrawable(mContext.getResources(), bitmapOrig);
+        return new BitmapDrawable(getActivity().getResources(), bitmapOrig);
     }
 
     private Drawable getPieIconImage(int index, boolean landscape) {
@@ -432,7 +432,7 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
                 Settings.System.SPIE_CUSTOM_ACTIVITIES[index]);
 
         int resId = 0;
-        PackageManager pm = mContext.getPackageManager();
+        PackageManager pm = getActivity().getPackageManager();
 
         if (pm != null) {
             try {
@@ -476,7 +476,7 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
             }
         } else {
             try {
-                return mContext.getPackageManager().getActivityIcon(Intent.parseUri(uri, 0));
+                return getActivity().getPackageManager().getActivityIcon(Intent.parseUri(uri, 0));
             } catch (NameNotFoundException e) {
                 e.printStackTrace();
             } catch (URISyntaxException e) {
@@ -556,7 +556,7 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
                     String iconName = getIconFileName(mPendingPieCustomAction.iconIndex);
                     FileOutputStream iconStream = null;
                     try {
-                        iconStream = mContext.openFileOutput(iconName, Context.MODE_WORLD_READABLE);
+                        iconStream = getActivity().openFileOutput(iconName, Context.MODE_WORLD_READABLE);
                     } catch (FileNotFoundException e) {
                         return; // NOOOOO
                     }
@@ -569,7 +569,7 @@ public class PieButtonSettings extends SettingsPreferenceFragment implements
                             .putString(
                                     getContentResolver(),
                                     Settings.System.SPIE_CUSTOM_ICONS[mPendingPieCustomAction.iconIndex],
-                                    Uri.fromFile(mContext.getFileStreamPath(iconName)).toString());
+                                    Uri.fromFile(getActivity().getFileStreamPath(iconName)).toString());
                 }
             }
             mPendingPieCustomAction.preference.setSummary(friendlyName);

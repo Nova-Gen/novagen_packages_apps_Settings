@@ -23,9 +23,9 @@
         android:key="rb_general_ui"
         android:title="@string/general_ui_header">
 
-  <header
+  <PreferenceScreen
         android:id="@+id/pie"
-        android:fragment="com.android.settings.fragments.PieHeader"
+        android:fragment="com.android.settings.PieHeader"
         android:title="@string/pie_controls_title"
         android:icon="@drawable/ic_rb_pie"
         android:summary="@string/pie_controls_summary" />

@@ -84,7 +84,7 @@ public class PieTriggerSettings extends SettingsPreferenceFragment
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
-        PackageManager pm = mContext.getPackageManager();
+        PackageManager pm = getActivity().getPackageManager();
 
         if (pm != null) {
             try {

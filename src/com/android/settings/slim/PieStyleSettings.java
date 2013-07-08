@@ -74,7 +74,7 @@ public class PieStyleSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.pie_style);
 
         PreferenceScreen prefs = getPreferenceScreen();
-        PackageManager pm = mContext.getPackageManager();
+        PackageManager pm = getActivity().getPackageManager();
         if (pm != null) {
             try {
                 mSystemUiResources = pm.getResourcesForApplication("com.android.systemui");
